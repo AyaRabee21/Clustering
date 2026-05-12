@@ -35,6 +35,8 @@ Clustering solves this by automatically exploring and organizing data into meani
 It is one of the simplest and most popular clustering algorithms. Its core idea is to partition the dataset into a predefined number of clusters, denoted by the letter $K$.
 The algorithm selects a central point (Centroid) for each cluster, then assigns each data point to the cluster with the closest centroid. This process continues iteratively until the centroids stabilize in the best possible positions.
 
+<img width="640" height="480" alt="k2" src="https://github.com/user-attachments/assets/070c6806-7fd8-44f3-b20d-3419f8ef8cf1" />
+
 ### 📐 Mathematical Equations and Explanations
 
 The primary goal of K-Means is to minimize the variance within clusters, mathematically known as minimizing the **Within-Cluster Sum of Squares (WCSS)**.
@@ -94,7 +96,3 @@ $$c_j = \frac{1}{|S_j|} \sum_{x \in S_j} x$$
 
 *This repository was created to explain and practically implement clustering concepts.*
 
----
-
-**Extra Tip for your Repository:**
-Later, you can add a small section at the end of the README called **"How to Run"**, where you list the library installation commands (like `pip install -r requirements.txt`) and the code execution commands. This will make your documentation complete and perfect for anyone visiting your profile!
